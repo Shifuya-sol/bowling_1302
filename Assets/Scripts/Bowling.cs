@@ -42,7 +42,7 @@ public class Bowling : MonoBehaviour
       transform.position += new Vector3(1f, 0f, 0f) * Time.deltaTime;
     }
 
-    private void MoveLeft()
+    private void MoveLeft() 
     {
         transform.position += new Vector3(-1f, 0f, 0f) * Time.deltaTime;
     }
